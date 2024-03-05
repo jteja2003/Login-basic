@@ -1,0 +1,93 @@
+body{
+background-image: url(bridge.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e3b3f;
+    border-radius: 10px;
+}
+li{
+    float: left;
+    border-right: 1px solid #2e3b3f;
+}
+li:last-child{
+    border-radius: none;
+}
+
+li a {
+    display: block;
+    color:burlywood;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover:not(.active) {
+    background-color:cadetblue;
+  }
+  
+  .active {
+    background-color:brown;
+  }
+.centerbox{
+    position:fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255,0.1); /* Transparent white background */
+    backdrop-filter: blur(5.5px); /* Apply a blur effect */
+    padding: 90px;
+    border-radius: 9px;
+    justify-content: center;
+    border: 2px solid #161720; 
+    align-items: center;
+
+}
+.centerbox h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 7px;
+    color:black;
+    
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.interact{
+    text-align: justify;
+    align-items: center;
+}
+.pass{
+    text-align: justify;
+    align-items: center;
+}
+.centerbox input{
+    border-radius:5px ;
+    border: none;
+    background-color: rgba(135, 222, 221, 0.352);
+    height: 25px;
+    border: 1px solid #2e3b3f;
+}
+.centerbox button{
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.518);
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: cadetblue;
+}
+input:hover{
+    border-color: aliceblue;
+}

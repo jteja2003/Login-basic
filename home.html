@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="hpage.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">HOME</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+        <li><a href="#settings">SETTINGS</a></li>
+        <li style="float:right"><a href="#about">ABOUT</a></li>
+    </ul>
+    <div class="centerbox">
+        <form class="login-form" action="login.php" method="POST">
+        <h2 class:"log">Login</h2>
+        <div class="intract">
+            <label for="Username">USERNAME:</label><br>
+            <input type="text" id="user_n" name="Username" required>
+        </div>
+        <br>
+        <div class="pass">
+            <label for="password">PASSWORD:</label><br>
+            <input type="password" id="pass_u" name="password" required>
+        </div>
+        <br>
+        <div class="checkbox">
+            <input type="checkbox" id="remember" class="remember1">
+            <label for="remember" style="font-family: Arial, Helvetica, sans-serif;">remember me</label><br>
+        <button type="submit">Login</button>
+        <p>if you don't have account sign up</p>
+        <button type="submit">Sign up</button>
+        </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
